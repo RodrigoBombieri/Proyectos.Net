@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iStliDwuV9Q=",
+  "dgSpecHash": "8gmOsKcvzyA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodrigo\\Escritorio\\Programacion\\.Net\\MiWebAPI\\MiWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Rodrigo\\Escritorio\\Repositorio Git\\Proyectos.Net\\MiWebAPI\\MiWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodrigo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

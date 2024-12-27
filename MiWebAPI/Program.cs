@@ -18,6 +18,15 @@ namespace MiWebAPI
             // AddSingleton permite que la instancia de EmpleadoData sea única en toda la aplicación
             builder.Services.AddSingleton<EmpleadoData>();
 
+            // Agregamos el servicio de CORS para permitir peticiones desde cualquier origen
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("NuevaPolitica", app =>
+                {
+                    app.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -27,8 +36,9 @@ namespace MiWebAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseAuthorization();
+            app.UseCors("NuevaPolitica");
 
+            app.UseAuthorization();
 
             app.MapControllers();
 

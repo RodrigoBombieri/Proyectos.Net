@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodrigo\\Escritorio\\Programacion\\.Net\\MiWebAPI\\MiWebAPI.csproj": {}
+    "C:\\Users\\Rodrigo\\Escritorio\\Repositorio Git\\Proyectos.Net\\MiWebAPI\\MiWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodrigo\\Escritorio\\Programacion\\.Net\\MiWebAPI\\MiWebAPI.csproj": {
+    "C:\\Users\\Rodrigo\\Escritorio\\Repositorio Git\\Proyectos.Net\\MiWebAPI\\MiWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\Escritorio\\Programacion\\.Net\\MiWebAPI\\MiWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Escritorio\\Repositorio Git\\Proyectos.Net\\MiWebAPI\\MiWebAPI.csproj",
         "projectName": "MiWebAPI",
-        "projectPath": "C:\\Users\\Rodrigo\\Escritorio\\Programacion\\.Net\\MiWebAPI\\MiWebAPI.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Escritorio\\Repositorio Git\\Proyectos.Net\\MiWebAPI\\MiWebAPI.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\Escritorio\\Programacion\\.Net\\MiWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Escritorio\\Repositorio Git\\Proyectos.Net\\MiWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
