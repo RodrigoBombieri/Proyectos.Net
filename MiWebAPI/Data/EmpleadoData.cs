@@ -48,7 +48,7 @@ namespace MiWebAPI.Data
                 await con.OpenAsync();
                 SqlCommand cmd = new SqlCommand("sp_obtenerEmpleado", con);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Id", id);
+                cmd.Parameters.AddWithValue("@IdEmpleado", id);
                 using (var reader = await cmd.ExecuteReaderAsync())
                 {
                     while (await reader.ReadAsync())
